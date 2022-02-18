@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCUMENTATION</title>
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <header>JavaScript documentation</header>
+        <ul>
+            <li><a href="#introduction" class="nav-link"> Introduction</a></li>
+            <li><a href="#variables" class="nav-link">Variables</a></li>
+            <li><a href="#functions" class="nav-link"> Functions</a></li>
+            <li><a href="#data_type" class="nav-link">Data type</a></li>
+            <li><a href="#while_statement" class="nav-link">While statement</a></li>
+            <li><a href="#if_else_statement" class="nav-link">If else statement</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <article>
+                <p>JavaScript is a client-side scripting language. It is used to improve website or webpage
+                    functionality. Also, it is used in conjunction with HTML and CSS to create responsive
+                    websites.
+                </p>
+                <p>JavaScript is one of many client side-scripting languages (e.g., VBScript, PerlScript,
+                    Jscript, ActionScript) that exist in the web. However, it is the most popular and widely
+                    used. Due to its wide usage, it has spawned multiple frameworks. Frameworks are there to
+                    make coding easier. They also improve and enhance the functionality of languages.
+                    JavaScript frameworks will be discussed in the later parts of this book.
+                </p>
+                <p>
+                    <code>
+                        function greetMe(your name) {
+                            alert("hello" + yourname); 
+                        }
+                        greetMe("world");
+                    </code>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="variables">
+            <header>Variables</header>
+            <article>
+                <p>Variables are storage entities within a program. They store information that will be used
+                    later on the program. It makes tracking of useful and crucial values in a script easier. Also,
+                    it makes it easier to use a value repeatedly, without remembering and typing the value
+                    exactly every time you need it.
+                    n the English language, variables are like pronouns. For example, your noun is “John”.
+                    To make it easier to refer to him, you can just use the pronoun he, him, or his in your
+                    sentences. That is just how simple variable works. Of course, other uses can be
+                    incorporated with variables.
+                </p>
+
+                <p>On the other hand, you must be already familiar with term variable. After all, your
+                    Mathematics teacher should have mentioned it a lot when you were in high school; you
+                    would have encountered it in college as well.
+                    The concept of variables in Math is similar with JavaScript variables or variables in
+                    programming — with a few notable differences. First, variables in programming do not
+                    only
+                </p>
+                <p>
+                    <code>
+                        if (true)
+                        {
+                            var x = 10;
+                        }
+                        console.log(x);
+                    </code>
+                </p>
+
+            </article>
+        </section>
+        <section class="main-section" id="functions">
+            <header>Functions</header>
+            <article>
+                <p>Functions are grouped lines of codes that do not immediately run when the browser parses
+                    them. Unlike regular lines of codes and conditional statements, the statements within a
+                    function are executed when the function is invoked.
+                </p>
+                <p>They are especially useful in decluttering your source code and making it more readable.
+                    Also, its primary use is to organize your code and minimize the lines of codes you need to
+                    type, especially if you need to execute the code block multiple times. After all, functions
+                    can be invoked as many times as you want.
+                    Here is an example of a JavaScript function:
+                    > function exampleFunction() {
+                    alert(“This is a function.”);
+                    }
+                </p>
+                <p>
+                    <code>
+                        function btn9() {
+                            document.getElementByid('input-box').value += 9
+                        }
+                    </code>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="data_type">
+            <header>Data type</header>
+            <article>
+                <p>In programming, manipulation of data is imminent. What is data anyway? Data is
+                    information. It can be in form of numbers or text. Aside from text and numbers, JavaScript
+                    can also process other forms of data types such as arrays and objects.
+                </p>
+                <p>Why is there a classification of data? It is to make the language and functions as clear and
+                    clean as possible. Also, it compartmentalizes the usage of operators. For example, there is
+                    no way you can multiple texts
+                </p>
+                <p>
+                    <code>
+                        var name1= "this is a string"; <br>
+                        var num2= 0;<br>
+                        let num3=3.0;
+                    </code>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="while_statement">
+            <header>While statement</header>
+            <article>
+                <p>Another statement that you can use in JavaScript is the while statement. The while loop is like an
+                    advanced version of the for loop that encourages users to customize their statement. Unlike for
+                    loop, the while statement only requires a condition to run. For example
+                </p>
+                <p>
+                    <code> 
+                        var n = 0; <br>
+                        var n = 0; 
+                        <br>
+                        while (n < 3) { <br>
+                                n++;
+                                x += n;
+                        }
+                        
+                    </code>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="if_else_statement">
+            <header>If else statement</header>
+            <article>
+                <p>To get more control of the conditions you created, you can use else if statements. Else if
+                    statements are else statements combined with another condition. You can use it in
+                    conjunction with other ifs and else statements. For example:
+                </p>
+                <p>
+                    <code>
+                        if (condition1) { <br>
+                            statement1;
+                            else if (condition2) {<br>
+                                statement2; <br>
+                            }
+                            else if(conditionN) { <br>
+                                statementN; <br>
+                            }
+                            else { <br>
+                                statementlast; <br>
+                            }
+                        }
+                    </code>
+                </p>
+            </article>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
